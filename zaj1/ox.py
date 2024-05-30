@@ -2,8 +2,10 @@ ALL_SPACES = list('123456789')  # Klucze słownika planszy KIK.
 X, O, BLANK = 'X', 'O', ' '  # Stałe reprezentujące wartości tekstowe.
 
 
+
+
 def main():
-    """Rozgrywka w kółko i krzyżyk."""
+    """Rozgrywka w kółko i krzyżyk"""
     print('Witaj w grze kółko i krzyżyk!')
     gameBoard = getBlankBoard()  # Utwórz słownik planszy KIK.
     currentPlayer, nextPlayer = X, O  # X wykonuje ruch jako pierwszy, O jako następny.
